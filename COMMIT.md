@@ -30,7 +30,7 @@ header 是单独一行, 由 type 、 scope 、 subject 组成且其中每一个�
 + feat (添加新功能)
 + fix (修补bug)
 + docs (只有文档的改动)
-+ style (代码格式，比如说添加遗漏的分号,空格)
++ style (代码格式,比如说添加遗漏的分号,空格)
 + refactor (代码重构)
 + perf (性能优化)
 + test (添加测试)
@@ -41,6 +41,7 @@ header 是单独一行, 由 type 、 scope 、 subject 组成且其中每一个�
 + root (全局范围)
 + module (模块)
 + location (局部功能)
++ none (不影响, docs 和 style 使用)
 
 #### subject
 这个是改动内容的简单描述:
