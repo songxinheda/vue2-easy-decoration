@@ -2,6 +2,12 @@
 
 > A simple entry-level project that uses vue2 + vue-router + vuex
 
+## commit 规范以及 code 规范
+code 之前请预先阅读 commit 规范以及 code 规范, 如有不合格, 将会在 review 中进行打回
+
++ [Commit 规范](https://github.com/suanmei/vue2-easy-decoration/blob/master/COMMIT.md)
++ [Code 规范](https://github.com/suanmei/vue2-easy-decoration/blob/master/CODE.md)
+
 ## Build Setup
 
 ``` bash
