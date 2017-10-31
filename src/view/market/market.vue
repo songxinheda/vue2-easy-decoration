@@ -2,7 +2,7 @@
   <h2>market</h2>
 </template>
 
-<script type="text/ecmascript6">
+<script type="text/ecmascript-6">
   export default {
     data() {
       return {

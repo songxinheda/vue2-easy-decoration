@@ -2,21 +2,26 @@
 
 </template>
 
-<script type="text/ecmascript6">
-  import modules from 'assets/js/modules.conf.js';
-  import request from '../../api/request.js';
+<script type="text/ecmascript-6">
+  import modules from 'assets/js/modules.conf';
+  import request from '../../api/request';
 
   export default {
     data() {
       return {
-        modules: modules,
+        modules,
       };
     },
     created() {
       request().then((res) => {
-        console.log(res);
+        this.dataConf = res.result;
       });
-    }
+    },
   };
 </script>
+
+<style lang="sass" scoped>
+
+</style>
+
 

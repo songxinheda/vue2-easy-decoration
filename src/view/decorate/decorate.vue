@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script type="text/ecmascript6">
+<script type="text/ecmascript-6">
   import HeadBar from 'components/headbar/headbar';
   import DragBar from 'components/dragbar/dragbar';
 
@@ -18,7 +18,7 @@
     components: {
       HeadBar,
       DragBar,
-    }
+    },
   };
 </script>
 
